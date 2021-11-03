@@ -14,3 +14,22 @@ Content-based filtering approaches uses a series of discrete characteristics of 
 3. website
 4. deoploy
 
+# preprocessing
+1. merge the datast on the bases of the title
+2. selecting the some columns from overall dataset movie_id, title, overview, genres, keywords, cast, overview
+3. removing the spaces form the columns 
+4. creting the tag columns 
+5. creating the new dataframe including the movie_id , title , tags
+6. applying the poster stemmer on the dataset 
+7. feature extraction
+8. converting array 
+9. checking for cosine similarity
+
+
+# creating the website 
+using the streamlit we creating the the website for the movie recomendation sysytem 
+
+# Deploy the website 
+The created the website is deployed on the heroku and link is given below.
+
+# Link : [https://movies-recomendation-system.herokuapp.com/]
